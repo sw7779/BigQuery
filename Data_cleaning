@@ -62,9 +62,4 @@ SELECT
 FROM
   -- Source Table (Raw Data): bdaa-occ2-g6.readmissions_data.readmissions_table
   `bdaa-occ2-g6.readmissions_data.readmissions_table` AS t
-JOIN stats s ON TRUE;  -- Joining the stats subquery to apply scaling
-
-
-
-#EDA
-
+JOIN stats s ON TRUE;  
